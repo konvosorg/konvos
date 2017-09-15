@@ -1,7 +1,8 @@
 ---
 title: Earth Day and The Momentum of Sustainable Development
-image: "https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2017/04/earth-day-sustainable-business-practices.png"
-author: "Omar"
+image: https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2017/04/earth-day-sustainable-business-practices.png
+author: Omar
+date: 2017-07-30 00:00:00 +0000
 ---
 
 Human activity puts over 30 billion tons of carbon dioxide into the atmosphere every year. Carbon dioxide is a greenhouse gas that alters the earth’s energy balance and lasts in the environment for over 100 years.  It is hard to imagine therefore, that the so-called President of the United States has declared climate change a hoax, and is in the process of dismantling the Environmental Protection Agency. By rolling back directives to reduce harmful greenhouse gases emitted into the air from coal burning power plants and inefficient cars, he is putting people’s health and wellbeing at risk in favor of big business.  In other words, he is acting to increase the profits of industries at the expense of the health of the planet and all of its inhabitants.

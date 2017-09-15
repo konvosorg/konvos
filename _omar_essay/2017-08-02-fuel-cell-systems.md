@@ -1,7 +1,7 @@
 ---
 title: Sustainable Product Development and Fuel Cell Systems
-image: "https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2016/05/Fuel_Cell_Systems_Sustainable_Product_Development_Nanjing_University_of_Science_and_Technology.png"
-date: 2017-08-03
+image: https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2016/05/Fuel_Cell_Systems_Sustainable_Product_Development_Nanjing_University_of_Science_and_Technology.png
+date: 2017-08-03 00:00:00 +0000
 ---
 
 I recently went to China and gave a talk at Nanjing University entitled “Sustainable Product Development and Fuel Cell Systems”.  Nanjing is one of the premier research universities in China, and has roots going back to the year 258 CE.  The campus is brand new in a beautiful part of the city.

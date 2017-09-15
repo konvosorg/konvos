@@ -1,10 +1,10 @@
 ---
 title: The Male is NOT Like the Female
-image: "https://i0.wp.com/andalusonline.org/wp-content/uploads/2017/08/men-women-differences.jpg?resize=768%2C432"
-author: "Mohamed Ghilan"
-date: 2017-09-03
-soundcloud: "340815477"
-youtube: "XbOeO_frzvg"
+image: https://i0.wp.com/andalusonline.org/wp-content/uploads/2017/08/men-women-differences.jpg?resize=768%2C432
+author: Mohamed Ghilan
+date: 2017-09-03 00:00:00 +0000
+soundcloud: 340815477
+youtube: XbOeO_frzvg
 ---
 
 Modern culture can be characterized as one that elevates feeling over fact and equivocates between equality of opportunity and equality of outcome. Islamic cosmology and the Quran teach that the male and the female are equal, yet different opposing parts of a whole. Their relationship is that of complementarity as opposed to sameness.

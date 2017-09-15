@@ -1,7 +1,7 @@
 ---
 title: The Paris Agreement
-image: "https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2016/01/paris-climate-change-sustainable-systems-earth-nasa.png"
-date: 2017-08-07
+image: https://sustainablesystems-01hearts.netdna-ssl.com/wp-content/uploads/2016/01/paris-climate-change-sustainable-systems-earth-nasa.png
+date: 2017-08-07 00:00:00 +0000
 comments: false
 ---
 
