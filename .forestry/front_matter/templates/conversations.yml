@@ -11,6 +11,8 @@ fields:
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: image
   label: Image
   type: textarea
@@ -21,6 +23,9 @@ fields:
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
+  description: Nahian or Omar
 - name: date
   label: Date
   type: datetime
@@ -31,16 +36,19 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: The ID goes here
 - name: youtube
   label: Youtube
   type: text
   hidden: false
   default: ''
+  description: The ID goes here
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: conversation
+  description: Leave this field as-is!
 - name: comments
   label: Comments
   type: boolean
