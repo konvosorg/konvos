@@ -1,9 +1,0 @@
-<h3>Latest Essays By Nahian</h3>
-<ul class="post-inline">
-{% assign n_essay = site.nahian_essay | reverse %}
-{% for post in n_essay limit: 5 %}
-<li>
-	<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
