@@ -1,0 +1,42 @@
+---
+layout: default
+title: "Conversations"
+paginate:
+  collection: conversations
+  per_page: 10
+---
+
+
+<div class="container">
+	<div class="row">
+		<div class="sm-12 lg-8">
+
+			<h1>Conversations</h1>
+		
+			<!-- Posts -->
+			<ul id="posts">
+
+				{% for post in paginator.conversations %}
+
+				  <li class="post">
+				  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
+				  	<b>{{ post.author }}</b>
+				  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date: "%b %e, %Y" }}</time>
+				  	<p>{{ post.excerpt | strip_html | truncatewords:50 }}</p>
+				  	<a class="read-more" href="{{ post.url }}">Continue reading...</a>
+				  </li>
+
+			    {% endfor %}
+
+			</ul>
+
+			{% include paginate.html %}
+		</div>
+
+		<div class="sm-12 lg-4 side-container">
+			{% include latest_nahian.html %}
+
+			{% include latest_omar.html %}
+		</div>		
+	</div>
+</div>	

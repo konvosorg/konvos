@@ -1,0 +1,176 @@
+/* -- General Layout -- */
+
+.side-container {
+  @media (min-width: 768px) {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin-bottom: 50px; 
+  }
+
+  h2, h3 {
+    &:after {
+      content: " ";
+      display: block;
+      width: 100px;
+      height: 2px;
+      background: #803333;
+      margin-top: 10px;      
+    }    
+  }
+}
+
+/* Main content */
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  @media (min-width: 940px) {
+    position: static;
+  }
+}
+
+#container {
+	margin:0 auto;
+	max-width: 730px;
+	padding: 0 1.5rem;
+}
+
+
+/* Posts */
+
+#posts {
+  li {
+    list-style-type: none;
+  }
+}
+
+#post-page {
+  margin-bottom: 1.5em;
+  @media (min-width: 940px) {
+      margin-bottom: 1.3334em;
+    }
+}
+
+.post+.post:before {
+    display: block;
+    content: '';
+    width: 5rem;
+    height: 1px;
+    margin: 23px auto;
+    background-color: #ddd;
+  }
+
+.by-line {
+  display: block;
+  color: lighten($text-color, 25%);
+  line-height: 1.5em; /* 24px/16px */
+  margin-bottom: 1.5em; /* 24px/16px */
+  font-weight: 200;
+  @media (min-width: 940px) {
+    display: block;
+    color: lighten($text-color, 25%);
+    line-height: 1.3334em; /* 24px/18px */
+    margin-bottom: 1.3334em; /* 24px/18px */
+    font-weight: 200;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+img[title="Emerald"] {
+    box-shadow: 0 2px 6px #ddd;
+  }
+
+code {
+  color: lighten($text-color, 35%);
+  background-color: lighten($background-color, 35%);
+}
+
+/* Set the vertical rhythm (and padding-left) for lists inside post content */
+
+.content ul, .content ol {
+  line-height: 1.5em; /* 24px/16px */
+  padding-left: 1.5em;
+  @media (min-width: 940px) {
+    line-height: 1.33334em; /* 24px/18px */
+  }
+}
+
+/* Pages */
+
+#page ul, #page ol {
+  padding-left: 1.5em;
+}
+
+/* Paginator */
+
+.pagination {
+  text-align: center;
+  margin: 2.666668em;
+  span {
+    background-color: darken($background-color, 5%);
+    color: $text-color;
+    padding: 5px;
+  }
+  a:hover {
+    background-color: lighten($main-color, 5%);
+    color: #fff;
+  }
+
+  .previous, .next {
+    background-color: darken($background-color, 5%);
+    padding: 5px;
+    display: inline-block;
+  }
+}
+.page-item {
+  background-color: $main-color;
+  color: $background-color;
+  padding: 4px 8px;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.social-links {
+    
+    display: flex;
+
+    img {
+        width: 48px;
+        height: 48px;
+        margin: 0 5px;
+        border-radius: 50px;
+        background-color: $main-color;     
+
+        &:hover {
+            opacity: 0.8;
+        }   
+    }
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0.6667em 0;
+
+  h1, h2, h3, h4 {
+    padding: 0;
+  }
+
+  p {
+    margin: 0 0 5px 0;
+  }
+}
+

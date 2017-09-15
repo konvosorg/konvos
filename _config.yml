@@ -1,0 +1,61 @@
+# Site settings
+title: Konvos
+description: ""
+url: "https://www.konvos.org"
+
+# Build settings
+baseurl: 
+markdown: kramdown
+source: .
+destination: ./_site
+pagination:
+  limit: false
+  title_suffix: " (Page :num)"
+  reversed: true
+
+
+collections:
+  conversations:
+    output: true
+    permalink: /conversations/:title/
+  nahian_essay:
+    output: true
+    permalink: /nahian/:title/
+  omar_essay:
+    output: true
+    permalink: /omar/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: conversations
+    values:
+      layout: conversation
+      comments: true
+      soundcloud: ''
+      youtube: ''
+  - scope:
+      path: ""
+      type: nahian_essay
+    values:
+      layout: nahian_essay
+      comments: true
+  - scope:
+      path: ""
+      type: omar_essay
+    values:
+      layout: omar_essay
+      comments: true
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - octopress-autoprefixer
+
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+sass:
+    style: compressed

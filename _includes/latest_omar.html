@@ -1,0 +1,9 @@
+<h3>Latest Essays By Omar</h3>
+<ul class="post-inline">
+{% assign o_essay = site.omar_essay | reverse %}
+{% for post in o_essay limit: 5 %}
+<li>
+	<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+	<div id="wrap">
+	  	
+	  	{% include menu.html %}
+    
+	  <button id="nav-menu" on="tap:sidebar.toggle" class="visible-sm">
+	  	<div id="menu"></div>
+	  </button>
+
+      {% include header.html %}
+      
+		  
+		<main>
+
+			{{ content }}
+
+	  </main>
+	    
+	    <!-- Footer -->
+	    {% include footer.html %}
+
+	    <!-- Script -->
+      {% include script.html %}
+
+	</div>
+</body>
+</html>
