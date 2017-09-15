@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Konvos</title>
+ <link href="https://www.konvos.org/atom.xml" rel="self"/>
+ <id>https://www.konvos.org</id>
+ <updated>2017-09-15T02:48:59-04:00</updated>
+ <author>
+   <name></name>
+   <uri></uri>
+   <email></email>
+ </author>
+
+ 
+
+</feed>
