@@ -1,6 +1,12 @@
 ---
 title: Are We Alone in the Universe?
+date: 2017-07-30 00:00:00 +0000
+layout: nahian_essay
+comments: false
 ---
+
+
+Let's Begin!
 
 Throughout its history humankind asked itself this question and constantly tried to answer “no”. The idea of sentient living beings who are not people is present in writings of historians, geographers and other scientists for as long as the science itself exists. Mermaids, cynocephali, various bizarre species of beastmen, antipodes: all of them were embodiments of this dream. In course of time, the limits of the known Universe expanded and it became known that no such creatures existed. The only place to seek for non-human life now is other planets. Is there any hope for finding it?
 
